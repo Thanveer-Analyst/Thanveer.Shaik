@@ -1,1 +1,1 @@
-# thanveershaik.github.io
+# thanveer.shaik.info
