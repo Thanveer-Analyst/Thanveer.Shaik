@@ -1,0 +1,119 @@
+/* Reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+  background-color: #f2f2f2;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+}
+
+/* About section styles */
+.about {
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+.about h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Portfolio section styles */
+.portfolio {
+  padding: 40px 0;
+  background-color: #f2f2f2;
+}
+
+.portfolio h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Blog section styles */
+.blog {
+  padding: 40px 0;
+  background-color: #fff;
+}
+
+.blog h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Contact section styles */
+.contact {
+  padding: 40px 0;
+  background-color: #f2f2f2;
+}
+
+.contact h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
